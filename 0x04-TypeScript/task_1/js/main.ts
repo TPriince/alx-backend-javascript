@@ -28,7 +28,7 @@ export interface IStudentClass {
   displayName(): string;
 }
 
-export class StudentClass implements IStudentClass {
+export class StudentClasss implements IStudentClass {
   private _firstName!: string;
   private _lastName!: string;
 
