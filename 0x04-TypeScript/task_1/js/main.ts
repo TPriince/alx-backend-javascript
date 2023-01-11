@@ -11,7 +11,7 @@ export interface Directors extends Teacher {
   numberOfReports: number;
 }
 
-export interface printTeacherFunction {
+export interface printTeacherFunctions {
   (firstName: string, lastName: string): string;
 }
 
